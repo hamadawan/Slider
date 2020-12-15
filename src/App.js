@@ -60,7 +60,7 @@ function App() {
   } 
 
   const toggle = (id) => {
-    console.log(id)
+    
     var myArray = data.filter(function( obj ) {
         if(obj.id == id)
           {
